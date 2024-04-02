@@ -2,7 +2,8 @@ name: Publish TechDocs Site
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   publish-techdocs-site:
